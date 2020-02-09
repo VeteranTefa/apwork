@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color:#000
+}
+header.cont{
+   
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 70px;
+    background-color: #6CC091;
+    margin-bottom: 100px;
+ 
+}
+header.cont div#text{float: left;padding: 10px;
+   
+}
+header.cont div#text span{
+    font-weight: bolder;
+}
+header.cont nav#nav{
+    float: right
+}
+header.cont nav#nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+header.cont nav#nav ul a li:hover{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    background-color: green;
+}
+header.father{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+header.father div.temp{
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+header.father div.temp h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+header.father div.temp span{
+  color: #DECABB  
+}
+header.father div.one{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    
+}
+header.father div.one p span
+{
+    font-weight: bolder;
+}
+header.father div.one h2{
+    margin-bottom: 30px;
+    font-weight: lighter
+}
+header.father div.two{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+
+
+}
+header.father div.two h2{
+    margin-bottom: 30px;
+}
+header.father div.three{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+
+
+}
+header.father div.three h2{
+    margin-bottom: 30px;
+}
+/*
+header.father div.one h2,p{
+    padding-left: 20px; 
+}
+*/
+header.samplecont{
+    margin-top: 70px;    
+    margin-bottom: 80px;  
+    padding-left: 20px;
+}
+header.samplecont h2{
+    margin-bottom: 20px;
+    
+}
+header.semmagna{width: 100%;overflow: hidden;margin-bottom: 30px;}
+header.semmagna div.sem{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+#tem{
+    margin-bottom: 20px;
+}
+header.semmagna div.magna{
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+header.cato{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+header.cato div.one{
+    padding: 20px;
+    float: left;
+    width: 40%;
+}
+header.cato div.two{
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+header.cato div.three{
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+header.ele{
+    margin-top: 55px;
+    margin-bottom: 80px;
+    width: 100%;
+    margin-left: 20px;
+    overflow: hidden
+}
+header.ele div.text{
+    width: 45%;
+    float: left
+}
+code{
+    background-color: #7EC89E
+}
+header.ele div.btns{
+    width: 55%;
+    float: right;
+    padding-left: 20px;
+}
+ul.l1 li{
+    margin-bottom: 10px;
+    background-color:#7EC89E;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid #000;
+    text-transform: uppercase
+}
+ul.l2 li{
+    margin-bottom: 10px;
+      background-color:white;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    color:#7EC89E;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid #7EC89E;
+    text-transform: uppercase;
+    margin-right: 360px;
+}
+h6,h5,h4,h3{
+    margin: 20px;
+}
+ul.add a li{display: inline-block;padding: 25px;
+background-color: #E6E6E6;
+    color: white;
+    border-radius: 25px;
+    text-shadow: 1px 1px #000;
+    width:150px;
+    text-align: center;
+    border: 1px solid #000
+}
+/*
+ header.ele div.text div.multicat{
+    width:45%;
+    overflow: hidden
+}
+*/
+header.ele div.text div.multicat {overflow: hidden}
+header.ele div.text div.multicat ul#un{float: left;
+
+}
+
+
+header.ele div.text div.multicat ul#o{float: right}
+header.ele div.text div.multicat  ol#o li{
+    list-style-type: decimal
+}
+#sp{
+    display: block;
+    margin-bottom: 10px;
+}
+i{
+    color:green;
+    margin-top: 20px;
+    margin-left: 5px;
+   
+}
+footer {
+    background-color: #6CC091;
+    margin-top: 90px;
+    padding: 50px;
+    overflow: hidden
+    
+}
+footer h3{
+    text-align: center;
+    color:white;
+    padding-bottom: 50px;
+    font-size: 35px;
+        
+}
+footer form div.l{
+    float: left;
+    margin-left: 150px;
+    
+
+    
+}
+footer form label{
+    color:white;
+    font-weight: bold
+}
+footer form div.l input{
+    width: 300px;
+    height: 33px;
+    border:3px solid green;
+    padding: 10px;
+    background-color: #6CC091;
+}
+footer form div.r{
+    float: right;
+    margin-right: 150px;
+}
+footer form div.r input{
+    width: 300px;
+    height: 33px;
+    border:3px solid green;
+    padding: 10px;
+    background-color: #6CC091;
+}
+textarea{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    background-color: #6CC091;
+    border: 3px solid green;
+    margin-bottom: 10px;
+}
+footer form button{
+     border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    color:green;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+   
+}
+footer center span{
+    color:white;
+    
+}

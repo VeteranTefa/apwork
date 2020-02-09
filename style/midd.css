@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color:#000
+}
+header.cont{
+   
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 70px;
+    background-color: #6CC091;
+    margin-bottom: 100px;
+ 
+}
+header.cont div#text{float: left;padding: 10px;
+   
+}
+header.cont div#text span{
+    font-weight: bolder;
+}
+header.cont nav#nav{
+    float: right
+}
+header.cont nav#nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+header.cont nav#nav ul a li:hover{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    background-color: green;
+}
+header.mid{
+    width: 100%;
+    overflow: hidden;
+}
+header.mid h1,h5{
+    text-align: center;
+}
+h5{
+    color:#BBBBBB;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+header.mid div.first{
+  margin-left: 20px;
+    margin-bottom: 50px;
+    direction: ltr
+}
+header.mid div.first img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+header.mid div.first p{
+    padding-left: 15px;
+}
+header.mid div.second img{
+    float:right;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+header.mid div.second{
+    margin-left: 20px;
+}
+header.mid div.words{
+    margin-top: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+    
+}
+p{
+    letter-spacing: 3px;
+}
+footer {
+    background-color: #6CC091;
+    margin-top: 90px;
+    padding: 50px;
+    overflow: hidden
+    
+}
+footer h3{
+    text-align: center;
+    color:white;
+    padding-bottom: 50px;
+    font-size: 35px;
+        
+}
+footer form div.l{
+    float: left;
+    margin-left: 150px;
+    
+
+    
+}
+footer form label{
+    color:white;
+    font-weight: bold
+}
+footer form div.l input{
+    width: 300px;
+    height: 33px;
+    border:3px solid green;
+    padding: 10px;
+    background-color: #6CC091;
+}
+footer form div.r{
+    float: right;
+    margin-right: 150px;
+}
+footer form div.r input{
+    width: 300px;
+    height: 33px;
+    border:3px solid green;
+    padding: 10px;
+    background-color: #6CC091;
+}
+textarea{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    background-color: #6CC091;
+    border: 3px solid green;
+    margin-bottom: 10px;
+}
+footer form button{
+     border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    color:green;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+   
+}
+footer center span{
+    color:white;
+    
+}
